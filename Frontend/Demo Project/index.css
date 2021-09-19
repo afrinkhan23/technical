@@ -1,0 +1,111 @@
+/* Navigation Bar*/
+      nav
+      {
+        display: flex;
+        position: fixed;
+        top:0;
+        width: 100%;
+        color: white;
+        overflow: auto;
+        height: auto;
+      }
+      .left-links
+      {
+        flex:1 1 200px;
+      }
+      .links 
+      {
+        display: inline-block;
+        padding: 14px;
+        color:black;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bolder;
+      }
+      .links:hover
+      {
+        border-bottom: 2px solid black;
+      }
+      
+      .container
+      {
+        width: available;
+        height: available;
+      }
+    .leftpane
+    {
+      width: 25%;
+      min-width:400px;
+      height: available;
+      min-height: 200px;
+      float: left;
+      border-collapse: collapse;
+    }
+
+    body 
+      {
+        
+        background-image: url(capg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+      }
+
+      
+      .button {
+  background-color :#4e2804;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  
+}
+.button:hover{
+    background-color: gray;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 325px;
+}
+div.gallery img {
+  width: 100%;
+  height: 180px;
+}
+
+
+.content
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    color: black;
+}
+.content span{
+    height: 1px;
+    width: 75px;
+    background: black;
+    margin: 20px 0;
+}
+.content h1{
+    top: 80px;
+    padding-bottom: 15px;
+    font-weight: 100;
+    font-size: 30px;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: center;
+}

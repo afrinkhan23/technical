@@ -1,0 +1,107 @@
+nav
+      {
+        display: flex;
+        position: fixed;
+        top:0;
+        width: 100%;
+        color: white;
+        overflow: auto;
+        height: auto;
+      }
+      .left-links
+      {
+        flex:1 1 200px;
+      }
+      .links 
+      {
+        display: inline-block;
+        padding: 14px;
+        color:black;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bolder;
+      }
+      .links:hover
+      {
+        border-bottom: 2px solid black;
+      }
+      
+      .container
+      {
+        width: available;
+        height: available;
+      }
+    .leftpane
+    {
+      width: 25%;
+      min-width:400px;
+      height: available;
+      min-height: 200px;
+      float: left;
+      border-collapse: collapse;
+    }
+    
+    .bg-img 
+    {
+     
+      min-height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    /* Add styles to the form container */
+    .container 
+    {
+      position: absolute;
+      right: 0;
+      margin: 80px;
+      max-width: 500px;
+      padding: 16px;
+    }
+    /* Full-width input fields */
+    input[type=text], input[type=password] 
+    {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background: #f1f1f1;
+    }
+
+    input[type=text]:focus, input[type=password]:focus 
+    {
+      background-color: #ddd;
+      outline: none;
+    }
+    /* Set a style for the submit button */
+    .btn 
+    {
+      background-color: black;
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 106%;
+      opacity: 0.9;
+    }
+    .btn_c 
+    {
+      background-color: black;
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 106%;
+      opacity: 0.9;
+    }
+    .btn:hover 
+    {
+      opacity: 1;
+      background-color: lightgreen;
+    }
+    .btn_c:hover 
+    {
+      opacity: 1;
+      background-color: red;
+    }
